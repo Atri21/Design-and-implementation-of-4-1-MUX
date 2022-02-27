@@ -1,7 +1,7 @@
 # Design-and-implementation-of-4-1-MUX on CMOS 28nm technology
 # Table of Contents
 * [Introduction](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md#introduction)
-* [Tools Used](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md)
+* [Tools Used](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md#tools-used)
 * [Working](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md)
 * [Netlist](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md)
 * [Acknowledgements](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md)
