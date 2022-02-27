@@ -51,50 +51,50 @@ A multiplexer, also known as a data selector, is a device that selects between s
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
 ********************************************************************************
-.subckt mux a b e y i0 i1 i2 i3 vdd
-xm43 y net103 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm39 net103 e vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm38 net103 net98 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm36 net98 net88 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm31 net98 net78 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm30 net98 net79 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm29 net98 net80 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm25 net78 i0 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm24 net78 net105 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm23 net78 net104 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm19 net79 i1 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm18 net79 b vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm17 net79 net104 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm13 net88 i3 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm12 net88 b vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm11 net88 a vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm6 net80 i2 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm5 net80 net105 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm4 net80 a vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm1 net105 b vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm0 net104 a vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
-xm44 y net103 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm41 net92 net98 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm40 net103 e net92 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm35 net81 net88 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm34 net76 net80 net81 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm33 net75 net79 net76 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm32 net98 net78 net75 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm28 net67 net104 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm27 net66 net105 net67 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm26 net78 i0 net66 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm22 net58 net104 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm21 net57 b net58 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm20 net79 i1 net57 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm16 net49 a gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm15 net48 b net49 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm14 net88 i3 net48 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm9 net37 a gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm8 net33 net105 net37 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm7 net80 i2 net33 gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm3 net105 b gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-xm2 net104 a gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1
-.ends mux
+.subckt mux a b e y i0 i1 i2 i3 vdd   
+xm43 y net103 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1   
+xm39 net103 e vdd vdd p105 w=0.1u l=0.03u nf=1 m=1           
+xm38 net103 net98 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1   
+xm36 net98 net88 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1   
+xm31 net98 net78 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1 
+xm30 net98 net79 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1 
+xm29 net98 net80 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1 
+xm25 net78 i0 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1  
+xm24 net78 net105 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1  
+xm23 net78 net104 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1  
+xm19 net79 i1 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1  
+xm18 net79 b vdd vdd p105 w=0.1u l=0.03u nf=1 m=1 
+xm17 net79 net104 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1  
+xm13 net88 i3 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1  
+xm12 net88 b vdd vdd p105 w=0.1u l=0.03u nf=1 m=1 
+xm11 net88 a vdd vdd p105 w=0.1u l=0.03u nf=1 m=1 
+xm6 net80 i2 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1 
+xm5 net80 net105 vdd vdd p105 w=0.1u l=0.03u nf=1 m=1 
+xm4 net80 a vdd vdd p105 w=0.1u l=0.03u nf=1 m=1  
+xm1 net105 b vdd vdd p105 w=0.1u l=0.03u nf=1 m=1 
+xm0 net104 a vdd vdd p105 w=0.1u l=0.03u nf=1 m=1 
+xm44 y net103 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1  
+xm41 net92 net98 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1 
+xm40 net103 e net92 gnd! n105 w=0.1u l=0.03u nf=1 m=1 
+xm35 net81 net88 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1   
+xm34 net76 net80 net81 gnd! n105 w=0.1u l=0.03u nf=1 m=1  
+xm33 net75 net79 net76 gnd! n105 w=0.1u l=0.03u nf=1 m=1  
+xm32 net98 net78 net75 gnd! n105 w=0.1u l=0.03u nf=1 m=1  
+xm28 net67 net104 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1    
+xm27 net66 net105 net67 gnd! n105 w=0.1u l=0.03u nf=1 m=1 
+xm26 net78 i0 net66 gnd! n105 w=0.1u l=0.03u nf=1 m=1 
+xm22 net58 net104 gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1  
+xm21 net57 b net58 gnd! n105 w=0.1u l=0.03u nf=1 m=1  
+xm20 net79 i1 net57 gnd! n105 w=0.1u l=0.03u nf=1 m=1 
+xm16 net49 a gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1 
+xm15 net48 b net49 gnd! n105 w=0.1u l=0.03u nf=1 m=1  
+xm14 net88 i3 net48 gnd! n105 w=0.1u l=0.03u nf=1 m=1 
+xm9 net37 a gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1  
+xm8 net33 net105 net37 gnd! n105 w=0.1u l=0.03u nf=1 m=1  
+xm7 net80 i2 net33 gnd! n105 w=0.1u l=0.03u nf=1 m=1  
+xm3 net105 b gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1 
+xm2 net104 a gnd! gnd! n105 w=0.1u l=0.03u nf=1 m=1 
+.ends mux 
 
 ********************************************************************************
 * Library          : mux
@@ -139,3 +139,8 @@ v12 net24 gnd! dc=0 pulse ( 1.8 0 0 1n 1n 40u 80u )
 * Sameer Durgoji, NIT Karnataka
 * Chinmay Panda, IIT Hyderabad
 
+# Refrences 
+
+[1] Wei-Yu Tsai and Ching-Te Chiu “ANovel Low Gate-Count Pipeline Topologywith Multiplexer Flip-Flops for Serial LinkIEEE Transactions on Circuits and Systems:Regular Papers, VOL.59, No. 11, Nov. 2012
+
+[2] M. Alioto and G. Palumbo, “Interconnectawaredesign of fast large fan in CMOSmultiplexers,” IEEE Trans. Circuits Syst. II,Exp. Briefs, vol. 54, no.6, pp. 484-488, Jun2007
