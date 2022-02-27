@@ -1,5 +1,11 @@
 # Design-and-implementation-of-4-1-MUX on CMOS 28nm technology
 # Table of Contents
+* [Introduction](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/edit/main/README.md#introduction)
+* [Tools Used](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/edit/main/README.md#tools-used)
+* [Working](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/edit/main/README.md#working)
+* [Netlist](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/edit/main/README.md#generated-netlist)
+* [Acknowledgements](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/edit/main/README.md#acknowledgements)
+* [References](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/edit/main/README.md#refrences)
 
 # Introduction
 The design proposed here is the most basic CMOS implementation of 4:1 MUX. We implement this using 28nm technology in Synopsis tool. In order to fully utilize the power, area and cost advantages of CMOS over SiGe and another semiconductor technology, these circuits must be integrated on one chip. 
@@ -32,7 +38,7 @@ A multiplexer, also known as a data selector, is a device that selects between s
 
     ![Screenshot (13)](https://user-images.githubusercontent.com/99316485/155882299-2ec5050e-c8ed-4ad7-8d2f-be2f79786034.png)
 
-* Generated netlist
+# Generated netlist
 
 *  Generated for: PrimeSim
 *  Design library name: mux
