@@ -1,11 +1,11 @@
 # Design-and-implementation-of-4-1-MUX on CMOS 28nm technology
 # Table of Contents
-* [Introduction](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/edit/main/README.md)
-* [Tools Used](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/edit/main/README.md)
-* [Working](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/edit/main/README.md)
-* [Netlist](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/edit/main/README.md)
-* [Acknowledgements](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/edit/main/README.md)
-* [References](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/edit/main/README.md)
+* [Introduction](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md)
+* [Tools Used](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md)
+* [Working](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md)
+* [Netlist](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md)
+* [Acknowledgements](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md)
+* [References](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md)
 
 # Introduction
 The design proposed here is the most basic CMOS implementation of 4:1 MUX. We implement this using 28nm technology in Synopsis tool. In order to fully utilize the power, area and cost advantages of CMOS over SiGe and another semiconductor technology, these circuits must be integrated on one chip. 
