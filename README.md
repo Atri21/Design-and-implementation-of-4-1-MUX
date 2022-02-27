@@ -130,3 +130,12 @@ v12 net24 gnd! dc=0 pulse ( 1.8 0 0 1n 1n 40u 80u )
 
 .end
 
+# Acknowledgements
+
+* Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
+* Synopsys Inc
+* IIT Hyderabad
+* https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/
+* Sameer Durgoji, NIT Karnataka
+* Chinmay Panda, IIT Hyderabad
+
