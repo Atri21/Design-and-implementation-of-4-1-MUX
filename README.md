@@ -4,7 +4,7 @@
 * [Tools Used](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md#tools-used)
 * [Working](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md#working)
 * [Netlist](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md#generated-netlist)
-* [Acknowledgements](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md)
+* [Acknowledgements](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md#acknowledgements)
 * [References](https://github.com/Atri21/Design-and-implementation-of-4-1-MUX/blob/main/README.md)
 
 # Introduction
