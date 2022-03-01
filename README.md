@@ -38,7 +38,7 @@ A multiplexer, also known as a data selector, is a device that selects between s
 
     ![Screenshot (13)](https://user-images.githubusercontent.com/99316485/155882299-2ec5050e-c8ed-4ad7-8d2f-be2f79786034.png)
 
-# [4-1-MUX-netlist](https://github.com/Atri21/4-1-MUX-netlist/tree/main#4-1-mux-netlist)
+## [4-1-MUX-netlist](https://github.com/Atri21/4-1-MUX-netlist/tree/main#4-1-mux-netlist)
 
 # Author
 Shiva Kumar S, Sapthagiri College Of Engineering, Bangalore
