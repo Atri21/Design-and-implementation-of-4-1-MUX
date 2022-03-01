@@ -136,6 +136,9 @@ v12 net24 gnd! dc=0 pulse ( 1.8 0 0 1n 1n 40u 80u )
 
 .end
 
+# Author
+Shiva Kumar S, Sapthagiri College Of Engineering, Bangalore
+
 # Acknowledgements
 
 * Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd.
