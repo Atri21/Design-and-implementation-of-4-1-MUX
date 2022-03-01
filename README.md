@@ -54,6 +54,6 @@ Shiva Kumar S, Sapthagiri College Of Engineering, Bangalore
 
 # Refrences 
 
-[1] Wei-Yu Tsai and Ching-Te Chiu “ANovel Low Gate-Count Pipeline Topologywith Multiplexer Flip-Flops for Serial LinkIEEE Transactions on Circuits and Systems:Regular Papers, VOL.59, No. 11, Nov. 2012
+[1] Wei-Yu Tsai and Ching-Te Chiu “A Novel Low Gate-Count Pipeline Topology with Multiplexer Flip-Flops for Serial Link IEEE Transactions on Circuits and Systems:Regular Papers, VOL.59, No. 11, Nov. 2012
 
-[2] M. Alioto and G. Palumbo, “Interconnectawaredesign of fast large fan in CMOSmultiplexers,” IEEE Trans. Circuits Syst. II,Exp. Briefs, vol. 54, no.6, pp. 484-488, Jun2007
+[2] M. Alioto and G. Palumbo, “Interconnect aware design of fast large fan in CMOS multiplexers,” IEEE Trans. Circuits Syst. II,Exp. Briefs, vol. 54, no.6, pp. 484-488, Jun2007
